@@ -39,8 +39,8 @@
 		const _chat = chat.chat;
 		console.log('share', _chat);
 
-		toast.success($i18n.t('Redirecting you to Open WebUI Community'));
-		const url = 'https://openwebui.com';
+		toast.success($i18n.t('Redirecting you to DianeGPT Community'));
+		const url = 'https://dianegpt.com';
 		// const url = 'http://localhost:5173';
 
 		const tab = await window.open(`${url}/chats/upload`, '_blank');
@@ -175,7 +175,7 @@
 								shareChat();
 							}}
 						>
-							{$i18n.t('Share to Open WebUI Community')}
+							{$i18n.t('Share to DianeGPT Community')}
 						</button>
 					{/if}
 

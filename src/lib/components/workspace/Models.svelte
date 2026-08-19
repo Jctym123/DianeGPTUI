@@ -211,9 +211,9 @@
 	};
 
 	const shareModelHandler = async (model) => {
-		toast.success($i18n.t('Redirecting you to Open WebUI Community'));
+		toast.success($i18n.t('Redirecting you to DianeGPT Community'));
 
-		const url = 'https://openwebui.com';
+		const url = 'https://dianegpt.com';
 		const fullModel = getFullModel(model);
 
 		const tab = await window.open(`${url}/post?type=model`, '_blank');
@@ -914,7 +914,7 @@
 
 	{#if $config?.features.enable_community_sharing}
 		<CommunityDiscover
-			href="https://openwebui.com/models"
+			href="https://dianegpt.com/models"
 			title={$i18n.t('Discover a model')}
 			description={$i18n.t('Discover, download, and explore model presets')}
 		/>
