@@ -63,7 +63,7 @@
 	onMount(() => {
 		const handleMessageEvent = async (event: MessageEvent) => {
 			if (
-				!['https://openwebui.com', 'https://www.openwebui.com', 'http://localhost:9999'].includes(
+				!['https://dianegpt.com', 'https://www.dianegpt.com', 'http://localhost:9999'].includes(
 					event.origin
 				)
 			) {

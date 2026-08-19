@@ -157,9 +157,9 @@
 			return null;
 		});
 
-		toast.success($i18n.t('Redirecting you to Open WebUI Community'));
+		toast.success($i18n.t('Redirecting you to DianeGPT Community'));
 
-		const url = 'https://openwebui.com';
+		const url = 'https://dianegpt.com';
 
 		const tab = await window.open(`${url}/functions/create`, '_blank');
 
@@ -733,7 +733,7 @@
 
 		{#if $config?.features.enable_community_sharing}
 			<CommunityDiscover
-				href="https://openwebui.com/functions"
+				href="https://dianegpt.com/functions"
 				title={$i18n.t('Discover a function')}
 				description={$i18n.t('Discover, download, and explore custom functions')}
 			/>

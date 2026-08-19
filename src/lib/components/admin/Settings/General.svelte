@@ -141,13 +141,13 @@
 						<div class="min-w-0">
 							<div class="text-gray-600 dark:text-gray-400">{$i18n.t('Help')}</div>
 							<div class="mt-0.5 text-gray-400 dark:text-gray-600">
-								{$i18n.t('Discover how to use Open WebUI and seek support from the community.')}
+								{$i18n.t('Discover how to use DianeGPT and seek support from the community.')}
 							</div>
 						</div>
 
 						<a
 							class="shrink-0 text-gray-500 transition-colors hover:text-gray-900 dark:text-gray-500 dark:hover:text-white"
-							href="https://docs.openwebui.com/"
+							href="https://docs.dianegpt.com/"
 							target="_blank"
 						>
 							{$i18n.t('Documentation')}
@@ -162,7 +162,7 @@
 						>
 						<a
 							class="hover:text-gray-700 dark:hover:text-gray-300"
-							href="https://twitter.com/OpenWebUI"
+							href="https://twitter.com/DianeGPT"
 							target="_blank">X</a
 						>
 						<a
@@ -178,7 +178,7 @@
 
 					{#if $config?.license_metadata}
 						<a
-							href="https://docs.openwebui.com/enterprise"
+							href="https://docs.dianegpt.com/enterprise"
 							target="_blank"
 							class="mt-0.5 block text-gray-500"
 						>
@@ -202,7 +202,7 @@
 					{:else}
 						<a
 							class="mt-0.5 block text-gray-400 transition-colors hover:text-gray-700 dark:text-gray-600 dark:hover:text-gray-300"
-							href="https://docs.openwebui.com/enterprise"
+							href="https://docs.dianegpt.com/enterprise"
 							target="_blank"
 						>
 							{$i18n.t(
@@ -216,7 +216,7 @@
 			<AdminSettingSection title={$i18n.t('Features')}>
 				<AdminSettingRow
 					label={$i18n.t('Community Sharing')}
-					description={$i18n.t('Allow users to share chats with the Open WebUI community.')}
+					description={$i18n.t('Allow users to share chats with the DianeGPT community.')}
 					let:labelId
 				>
 					<Switch bind:state={adminConfig.ENABLE_COMMUNITY_SHARING} ariaLabelledbyId={labelId} />
