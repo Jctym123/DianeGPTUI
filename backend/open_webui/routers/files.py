@@ -357,10 +357,10 @@ async def upload_file_handler(
         name = filename
         filename = f'{id}_{filename}'
         tags = {
-            'OpenWebUI-User-Email': user.email,
-            'OpenWebUI-User-Id': user.id,
-            'OpenWebUI-User-Name': user.name,
-            'OpenWebUI-File-Id': id,
+            'DianeGPT-User-Email': user.email,
+            'DianeGPT-User-Id': user.id,
+            'DianeGPT-User-Name': user.name,
+            'DianeGPT-File-Id': id,
         }
         try:
             contents, file_path = await asyncio.to_thread(Storage.upload_file, file.file, filename, tags)

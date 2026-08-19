@@ -465,7 +465,7 @@
 
 				{#if $user?.role === 'admin'}
 					<a
-						href="https://docs.openwebui.com"
+						href="https://docs.dianegpt.com"
 						target="_blank"
 						draggable="false"
 						class="flex h-[1.6875rem] items-center gap-2 rounded-xl px-2 text-[13px] w-full hover:bg-gray-50/40 dark:hover:bg-gray-800/40 transition cursor-pointer select-none"
@@ -482,7 +482,7 @@
 
 					<!-- Releases -->
 					<a
-						href="https://github.com/open-webui/open-webui/releases"
+						href="https://github.com/dianegpt/dianegpt/releases"
 						target="_blank"
 						draggable="false"
 						class="flex h-[1.6875rem] items-center gap-2 rounded-xl px-2 text-[13px] w-full hover:bg-gray-50/40 dark:hover:bg-gray-800/40 transition cursor-pointer select-none"

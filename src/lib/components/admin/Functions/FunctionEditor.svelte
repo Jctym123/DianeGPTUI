@@ -44,9 +44,9 @@
 	let starterType = 'filter';
 	const filterBoilerplate = `"""
 title: Example Filter
-author: open-webui
-author_url: https://github.com/open-webui
-funding_url: https://github.com/open-webui
+author: dianegpt
+author_url: https://github.com/dianegpt
+funding_url: https://github.com/dianegpt
 version: 0.1
 """
 
@@ -112,9 +112,9 @@ class Filter:
 `;
 	const eventBoilerplate = `"""
 title: Example Event
-author: open-webui
-author_url: https://github.com/open-webui
-funding_url: https://github.com/open-webui
+author: dianegpt
+author_url: https://github.com/dianegpt
+funding_url: https://github.com/dianegpt
 version: 0.1
 """
 

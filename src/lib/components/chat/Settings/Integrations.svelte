@@ -143,11 +143,11 @@
 					</div>
 					<div class={helpTextClass}>
 						{$i18n.t(
-							'CORS must be properly configured by the provider to allow requests from Open WebUI.'
+							'CORS must be properly configured by the provider to allow requests from DianeGPT.'
 						)}
 						<a
 							class="ml-1 text-gray-500 underline hover:text-gray-700 dark:text-gray-500 dark:hover:text-gray-300"
-							href="https://github.com/open-webui/openapi-servers"
+							href="https://github.com/dianegpt/openapi-servers"
 							target="_blank">{$i18n.t('Learn more about OpenAPI tool servers.')} ↗</a
 						>
 					</div>
@@ -164,7 +164,7 @@
 				</div>
 				<a
 					class="mt-0.5 block text-[0.6875rem] text-gray-500 underline hover:text-gray-700 dark:text-gray-500 dark:hover:text-gray-300"
-					href="https://github.com/open-webui/open-terminal"
+					href="https://github.com/dianegpt/open-terminal"
 					target="_blank">{$i18n.t('Learn more about Open Terminal')} ↗</a
 				>
 			</UserSettingSection>

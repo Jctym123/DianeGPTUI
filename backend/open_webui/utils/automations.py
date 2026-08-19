@@ -364,7 +364,7 @@ def _resolve_model_terminal_id(app, model_id: str) -> Optional[str]:
 async def _set_terminal_cwd(app, server_id: str, user, cwd: str, chat_id: str) -> None:
     """Set the working directory on a terminal server via the proxy.
 
-    Routes through the open-webui terminal proxy endpoint so that
+    Routes through the dianegpt terminal proxy endpoint so that
     auth headers, orchestrator policy routing, and X-User-Id are
     handled correctly — same path the frontend uses.
     """

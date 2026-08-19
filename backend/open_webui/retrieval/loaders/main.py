@@ -207,7 +207,7 @@ class DoclingLoader:
                     'image_export_mode': 'placeholder',
                     'md_page_break_placeholder': page_break_marker,
                     # Keep Docling params as user-provided form values. Encoding nested
-                    # values here would make Open WebUI responsible for Docling's API
+                    # values here would make DianeGPT responsible for Docling's API
                     # quirks and could break when Docling changes its form contract.
                     **self.params,
                 },
@@ -484,7 +484,7 @@ class Loader:
         ):
             api_base_url = self.kwargs.get('DATALAB_MARKER_API_BASE_URL', '')
             if not api_base_url or api_base_url.strip() == '':
-                api_base_url = 'https://www.datalab.to/api/v1/marker'  # https://github.com/open-webui/open-webui/pull/16867#issuecomment-3218424349
+                api_base_url = 'https://www.datalab.to/api/v1/marker'  # https://github.com/dianegpt/dianegpt/pull/16867#issuecomment-3218424349
 
             loader = DatalabMarkerLoader(
                 file_path=file_path,

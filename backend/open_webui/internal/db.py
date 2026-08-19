@@ -26,7 +26,7 @@ from open_webui.env import (
     DATABASE_SQLITE_PRAGMA_TEMP_STORE,
     DATABASE_URL,
     ENABLE_DB_MIGRATIONS,
-    OPEN_WEBUI_DIR,
+    DIANEGPT_DIR,
 )
 from sqlalchemy import Dialect, MetaData, create_engine, event, types
 from sqlalchemy.engine.url import make_url

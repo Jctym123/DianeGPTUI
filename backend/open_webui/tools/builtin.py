@@ -1,5 +1,5 @@
 """
-Built-in tools for Open WebUI.
+Built-in tools for DianeGPT.
 
 These tools are automatically available when native function calling is enabled.
 
@@ -138,7 +138,7 @@ async def notify(
         return 'Notification failed: user not found.'
 
     app_name = getattr(getattr(__request__, 'app', None), 'state', None)
-    app_name = getattr(app_name, 'WEBUI_NAME', 'Open WebUI')
+    app_name = getattr(app_name, 'WEBUI_NAME', 'DianeGPT')
     try:
         result = await notify_target(user_id, message, target=target, title=title, app_name=app_name)
         return f'Notification sent to {result.get("target_id")}.'

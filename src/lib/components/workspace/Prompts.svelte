@@ -194,9 +194,9 @@
 	};
 
 	const shareHandler = async (prompt) => {
-		toast.success($i18n.t('Redirecting you to Open WebUI Community'));
+		toast.success($i18n.t('Redirecting you to DianeGPT Community'));
 
-		const url = 'https://openwebui.com';
+		const url = 'https://dianegpt.com';
 
 		const tab = await window.open(`${url}/prompts/create`, '_blank');
 		window.addEventListener(
@@ -298,7 +298,7 @@
 
 		const onMessage = async (event: MessageEvent) => {
 			if (
-				!['https://openwebui.com', 'https://www.openwebui.com', 'http://localhost:9999'].includes(
+				!['https://dianegpt.com', 'https://www.dianegpt.com', 'http://localhost:9999'].includes(
 					event.origin
 				)
 			) {
@@ -742,7 +742,7 @@
 
 	{#if $config?.features.enable_community_sharing}
 		<CommunityDiscover
-			href="https://openwebui.com/prompts"
+			href="https://dianegpt.com/prompts"
 			title={$i18n.t('Discover a prompt')}
 			description={$i18n.t('Discover, download, and explore custom prompts')}
 		/>

@@ -599,7 +599,7 @@
 				'about us',
 				'aboutapp',
 				'aboutme',
-				'aboutopenwebui',
+				'aboutDianeGPT',
 				'aboutpage',
 				'aboutus',
 				'check for updates',
